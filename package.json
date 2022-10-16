@@ -28,7 +28,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco start --openssl-legacy-provider",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -54,6 +54,6 @@
   "devDependencies": {
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    "tailwindcss": "@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
